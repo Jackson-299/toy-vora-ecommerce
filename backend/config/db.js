@@ -17,7 +17,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb+srv://havocjack2942002_db_user:FwCaEfMwzG4OfroL@cluster0.grekmpf.mongodb.net/?appName=Cluster0", {
+    await mongoose.connect(process.env.MONGODB_URI, {
       serverSelectionTimeoutMS: 12000,
     });
 
