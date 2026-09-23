@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/reviews";
+const API_URL = "https://backend-y16b.vercel.app/";
 
 // Get Reviews
 export const getReviews = async () => {
