@@ -43,7 +43,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/auth/login",
+        "https://backend-y16b.vercel.app/auth/login",
         {
           email: email.trim(),
           password,
