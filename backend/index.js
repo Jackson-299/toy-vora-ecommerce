@@ -10,7 +10,7 @@ const wishlistRoutes = require("./routes/wishlistRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 
 const app = express();
-const port = 8000;
+const port = 7000;
 
 app.use(cors());
 app.use(express.json());
