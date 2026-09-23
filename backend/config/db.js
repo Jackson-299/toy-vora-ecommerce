@@ -17,13 +17,15 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
+    console.log("MONGODB_URI exists:", !!process.env.MONGODB_URI);
+
     await mongoose.connect(process.env.MONGODB_URI, {
-      serverSelectionTimeoutMS: 12000,
+      serverSelectionTimeoutMS: 5000,
     });
 
     console.log("MongoDB Connected");
   } catch (error) {
-    console.log("MongoDB Connection Failed:", error.message);
+    console.log("MongoDB Connection Failed:", error);
   }
 };
 
