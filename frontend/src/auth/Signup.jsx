@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
 import Input from "../ui/Input";
 import Button from "../ui/Button";
 import Card from "../ui/Card";
@@ -65,11 +66,14 @@ const Signup = () => {
     }
 
     try {
-      await axios.post("http://localhost:8000/auth/register", {
-        username: username.trim(),
-        email: email.trim(),
-        password,
-      });
+      await axios.post(
+        "https://backend-y16b.vercel.app/auth/register",
+        {
+          username: username.trim(),
+          email: email.trim(),
+          password,
+        }
+      );
 
       navigate("/login");
     } catch (error) {
@@ -94,10 +98,12 @@ const Signup = () => {
 
         {/* Right Form */}
         <div className="col-md-6 d-flex align-items-center justify-content-center p-5">
-
           <div className="w-75">
+
             <Card>
-              <h3 className="text-center mb-4">Create Account</h3>
+              <h3 className="text-center mb-4">
+                Create Account
+              </h3>
 
               <form onSubmit={handleSignup}>
 
@@ -130,7 +136,9 @@ const Signup = () => {
                   type="password"
                   placeholder="Confirm password"
                   value={confirmPassword}
-                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  onChange={(e) =>
+                    setConfirmPassword(e.target.value)
+                  }
                 />
 
                 {error && (
@@ -141,12 +149,23 @@ const Signup = () => {
                   Sign Up
                 </Button>
 
+                {/* Sign In */}
+                <p className="text-center mt-3 mb-0">
+                  Already have an account?{" "}
+                  <button
+                    type="button"
+                    className="btn btn-link p-0 text-decoration-none"
+                    onClick={() => navigate("/login")}
+                  >
+                    Sign In
+                  </button>
+                </p>
+
               </form>
             </Card>
+
           </div>
-
         </div>
-
       </div>
     </div>
   );

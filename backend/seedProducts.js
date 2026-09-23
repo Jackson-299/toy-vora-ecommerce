@@ -7,7 +7,7 @@ const products = [
 
   {
     id: 101,
-    image: "https://loremflickr.com/600/600/toy?lock=101",
+    image: "https://loremflickr.com/600/600/toy,colorful-building-blocks?lock=101",
     name: "Colorful Building Blocks",
     brand: "Toyvora",
     category: "Toys",
@@ -20,7 +20,7 @@ const products = [
   },
   {
     id: 102,
-    image: "https://loremflickr.com/600/600/toy?lock=102",
+    image: "https://loremflickr.com/600/600/toy,cute-teddy-bear?lock=102",
     name: "Cute Teddy Bear",
     brand: "Toyvora",
     category: "Toys",
@@ -33,7 +33,7 @@ const products = [
   },
   {
     id: 103,
-    image: "https://loremflickr.com/600/600/toy?lock=103",
+    image: "https://loremflickr.com/600/600/toy,kids-toy-car?lock=103",
     name: "Kids Toy Car",
     brand: "FunKids",
     category: "Toys",
@@ -46,7 +46,7 @@ const products = [
   },
   {
     id: 104,
-    image: "https://loremflickr.com/600/600/toy?lock=104",
+    image: "https://loremflickr.com/600/600/toy,wooden-learning-toy?lock=104",
     name: "Wooden Learning Toy",
     brand: "Kiddo",
     category: "Toys",
@@ -59,7 +59,7 @@ const products = [
   },
   {
     id: 105,
-    image: "https://loremflickr.com/600/600/toy?lock=105",
+    image: "https://loremflickr.com/600/600/toy,soft-plush-toy?lock=105",
     name: "Soft Plush Toy",
     brand: "SoftJoy",
     category: "Toys",
@@ -72,7 +72,7 @@ const products = [
   },
   {
     id: 106,
-    image: "https://loremflickr.com/600/600/toy?lock=106",
+    image: "https://loremflickr.com/600/600/toy,toy-kitchen-set?lock=106",
     name: "Toy Kitchen Set",
     brand: "PlayWorld",
     category: "Toys",
@@ -85,7 +85,7 @@ const products = [
   },
   {
     id: 107,
-    image: "https://loremflickr.com/600/600/toy?lock=107",
+    image: "https://loremflickr.com/600/600/toy,mini-robot-toy?lock=107",
     name: "Mini Robot Toy",
     brand: "RoboKids",
     category: "Toys",
@@ -98,7 +98,7 @@ const products = [
   },
   {
     id: 108,
-    image: "https://loremflickr.com/600/600/toy?lock=108",
+    image: "https://loremflickr.com/600/600/toy,color-puzzle-game?lock=108",
     name: "Color Puzzle Game",
     brand: "BrainFun",
     category: "Toys",
@@ -111,7 +111,7 @@ const products = [
   },
   {
     id: 109,
-    image: "https://loremflickr.com/600/600/toy?lock=109",
+    image: "https://loremflickr.com/600/600/toy,kids-musical-toy?lock=109",
     name: "Kids Musical Toy",
     brand: "MusicKids",
     category: "Toys",
@@ -124,7 +124,7 @@ const products = [
   },
   {
     id: 110,
-    image: "https://loremflickr.com/600/600/toy?lock=110",
+    image: "https://loremflickr.com/600/600/toy,colorful-toy-train-set?lock=110",
     name: "Colorful Toy Train Set",
     brand: "PlayWorld",
     category: "Toys",
@@ -137,7 +137,7 @@ const products = [
   },
   {
     id: 111,
-    image: "https://loremflickr.com/600/600/toy?lock=111",
+    image: "https://loremflickr.com/600/600/toy,cute-baby-doll?lock=111",
     name: "Cute Baby Doll",
     brand: "DollyLand",
     category: "Toys",
@@ -150,7 +150,7 @@ const products = [
   },
   {
     id: 112,
-    image: "https://loremflickr.com/600/600/toy?lock=112",
+    image: "https://loremflickr.com/600/600/toy,remote-control-car?lock=112",
     name: "Remote Control Car",
     brand: "SpeedKids",
     category: "Toys",
@@ -163,7 +163,7 @@ const products = [
   },
   {
     id: 113,
-    image: "https://loremflickr.com/600/600/toy?lock=113",
+    image: "https://loremflickr.com/600/600/toy,rainbow-plush-toy?lock=113",
     name: "Rainbow Plush Toy",
     brand: "SoftJoy",
     category: "Toys",
@@ -176,7 +176,7 @@ const products = [
   },
   {
     id: 114,
-    image: "https://loremflickr.com/600/600/toy?lock=114",
+    image: "https://loremflickr.com/600/600/toy,kids-learning-board?lock=114",
     name: "Kids Learning Board",
     brand: "Kiddo",
     category: "Toys",
@@ -189,7 +189,7 @@ const products = [
   },
   {
     id: 115,
-    image: "https://loremflickr.com/600/600/toy?lock=115",
+    image: "https://loremflickr.com/600/600/toy,brain-puzzle-cube?lock=115",
     name: "Brain Puzzle Cube",
     brand: "BrainFun",
     category: "Toys",
@@ -202,7 +202,7 @@ const products = [
   },
   {
     id: 116,
-    image: "https://loremflickr.com/600/600/toy?lock=116",
+    image: "https://loremflickr.com/600/600/toy,kids-cooking-play-set?lock=116",
     name: "Kids Cooking Play Set",
     brand: "PlayWorld",
     category: "Toys",
@@ -215,7 +215,7 @@ const products = [
   },
   {
     id: 117,
-    image: "https://loremflickr.com/600/600/toy?lock=117",
+    image: "https://loremflickr.com/600/600/toy,interactive-robot?lock=117",
     name: "Interactive Robot",
     brand: "RoboKids",
     category: "Toys",
@@ -228,7 +228,7 @@ const products = [
   },
   {
     id: 118,
-    image: "https://loremflickr.com/600/600/toy?lock=118",
+    image: "https://loremflickr.com/600/600/toy,creative-building-set?lock=118",
     name: "Creative Building Set",
     brand: "Toyvora",
     category: "Toys",
@@ -241,7 +241,7 @@ const products = [
   },
   {
     id: 119,
-    image: "https://loremflickr.com/600/600/toy?lock=119",
+    image: "https://loremflickr.com/600/600/toy,racing-toy-car?lock=119",
     name: "Racing Toy Car",
     brand: "SpeedKids",
     category: "Toys",
@@ -254,7 +254,7 @@ const products = [
   },
   {
     id: 120,
-    image: "https://loremflickr.com/600/600/toy?lock=120",
+    image: "https://loremflickr.com/600/600/toy,large-teddy-bear?lock=120",
     name: "Large Teddy Bear",
     brand: "SoftJoy",
     category: "Toys",
@@ -270,7 +270,7 @@ const products = [
 
   {
     id: 201,
-    image: "https://loremflickr.com/600/600/gadget?lock=201",
+    image: "https://loremflickr.com/600/600/gadget,premium-smart-watch?lock=201",
     name: "Premium Smart Watch",
     brand: "TechPro",
     category: "Accessories",
@@ -283,7 +283,7 @@ const products = [
   },
   {
     id: 202,
-    image: "https://loremflickr.com/600/600/gadget?lock=202",
+    image: "https://loremflickr.com/600/600/gadget,premium-phone-case?lock=202",
     name: "Premium Phone Case",
     brand: "CasePro",
     category: "Accessories",
@@ -296,7 +296,7 @@ const products = [
   },
   {
     id: 203,
-    image: "https://loremflickr.com/600/600/gadget?lock=203",
+    image: "https://loremflickr.com/600/600/gadget,fast-charging-power-bank?lock=203",
     name: "Fast Charging Power Bank",
     brand: "PowerMax",
     category: "Accessories",
@@ -309,7 +309,7 @@ const products = [
   },
   {
     id: 204,
-    image: "https://loremflickr.com/600/600/gadget?lock=204",
+    image: "https://loremflickr.com/600/600/gadget,usb-c-fast-charger?lock=204",
     name: "USB-C Fast Charger",
     brand: "ChargePro",
     category: "Accessories",
@@ -322,7 +322,7 @@ const products = [
   },
   {
     id: 205,
-    image: "https://loremflickr.com/600/600/gadget?lock=205",
+    image: "https://loremflickr.com/600/600/gadget,wireless-bluetooth-earbuds?lock=205",
     name: "Wireless Bluetooth Earbuds",
     brand: "SoundMax",
     category: "Accessories",
@@ -335,7 +335,7 @@ const products = [
   },
   {
     id: 206,
-    image: "https://loremflickr.com/600/600/gadget?lock=206",
+    image: "https://loremflickr.com/600/600/gadget,wireless-gaming-mouse?lock=206",
     name: "Wireless Gaming Mouse",
     brand: "GameTech",
     category: "Accessories",
@@ -348,7 +348,7 @@ const products = [
   },
   {
     id: 207,
-    image: "https://loremflickr.com/600/600/gadget?lock=207",
+    image: "https://loremflickr.com/600/600/gadget,mechanical-gaming-keyboard?lock=207",
     name: "Mechanical Gaming Keyboard",
     brand: "GameTech",
     category: "Accessories",
@@ -361,7 +361,7 @@ const products = [
   },
   {
     id: 208,
-    image: "https://loremflickr.com/600/600/gadget?lock=208",
+    image: "https://loremflickr.com/600/600/gadget,wireless-phone-charger?lock=208",
     name: "Wireless Phone Charger",
     brand: "ChargePro",
     category: "Accessories",
@@ -374,7 +374,7 @@ const products = [
   },
   {
     id: 209,
-    image: "https://loremflickr.com/600/600/gadget?lock=209",
+    image: "https://loremflickr.com/600/600/gadget,adjustable-phone-stand?lock=209",
     name: "Adjustable Phone Stand",
     brand: "DeskPro",
     category: "Accessories",
@@ -387,7 +387,7 @@ const products = [
   },
   {
     id: 210,
-    image: "https://loremflickr.com/600/600/gadget?lock=210",
+    image: "https://loremflickr.com/600/600/gadget,braided-usb-cable?lock=210",
     name: "Braided USB Cable",
     brand: "CableMax",
     category: "Accessories",
@@ -400,7 +400,7 @@ const products = [
   },
   {
     id: 211,
-    image: "https://loremflickr.com/600/600/gadget?lock=211",
+    image: "https://loremflickr.com/600/600/gadget,portable-bluetooth-speaker?lock=211",
     name: "Portable Bluetooth Speaker",
     brand: "SoundMax",
     category: "Accessories",
@@ -413,7 +413,7 @@ const products = [
   },
   {
     id: 212,
-    image: "https://loremflickr.com/600/600/gadget?lock=212",
+    image: "https://loremflickr.com/600/600/gadget,premium-wireless-headphones?lock=212",
     name: "Premium Wireless Headphones",
     brand: "SoundMax",
     category: "Accessories",
@@ -426,7 +426,7 @@ const products = [
   },
   {
     id: 213,
-    image: "https://loremflickr.com/600/600/gadget?lock=213",
+    image: "https://loremflickr.com/600/600/gadget,shockproof-mobile-cover?lock=213",
     name: "Shockproof Mobile Cover",
     brand: "CasePro",
     category: "Accessories",
@@ -439,7 +439,7 @@ const products = [
   },
   {
     id: 214,
-    image: "https://loremflickr.com/600/600/gadget?lock=214",
+    image: "https://loremflickr.com/600/600/gadget,laptop-sleeve-bag?lock=214",
     name: "Laptop Sleeve Bag",
     brand: "DeskPro",
     category: "Accessories",
@@ -452,7 +452,7 @@ const products = [
   },
   {
     id: 215,
-    image: "https://loremflickr.com/600/600/gadget?lock=215",
+    image: "https://loremflickr.com/600/600/gadget,over-ear-headphones?lock=215",
     name: "Over-Ear Headphones",
     brand: "SoundMax",
     category: "Accessories",
@@ -465,7 +465,7 @@ const products = [
   },
   {
     id: 216,
-    image: "https://loremflickr.com/600/600/gadget?lock=216",
+    image: "https://loremflickr.com/600/600/gadget,smart-fitness-band?lock=216",
     name: "Smart Fitness Band",
     brand: "TechPro",
     category: "Accessories",
@@ -478,7 +478,7 @@ const products = [
   },
   {
     id: 217,
-    image: "https://loremflickr.com/600/600/gadget?lock=217",
+    image: "https://loremflickr.com/600/600/gadget,desktop-cable-organizer?lock=217",
     name: "Desktop Cable Organizer",
     brand: "DeskPro",
     category: "Accessories",
@@ -491,7 +491,7 @@ const products = [
   },
   {
     id: 218,
-    image: "https://loremflickr.com/600/600/gadget?lock=218",
+    image: "https://loremflickr.com/600/600/gadget,foldable-tablet-stand?lock=218",
     name: "Foldable Tablet Stand",
     brand: "DeskPro",
     category: "Accessories",
@@ -504,7 +504,7 @@ const products = [
   },
   {
     id: 219,
-    image: "https://loremflickr.com/600/600/gadget?lock=219",
+    image: "https://loremflickr.com/600/600/gadget,usb-hub-adapter?lock=219",
     name: "USB Hub Adapter",
     brand: "TechPro",
     category: "Accessories",
@@ -517,7 +517,7 @@ const products = [
   },
   {
     id: 220,
-    image: "https://loremflickr.com/600/600/gadget?lock=220",
+    image: "https://loremflickr.com/600/600/gadget,true-wireless-earbuds?lock=220",
     name: "True Wireless Earbuds",
     brand: "SoundMax",
     category: "Accessories",

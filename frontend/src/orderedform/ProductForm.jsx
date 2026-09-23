@@ -55,10 +55,31 @@ const ProductForm = () => {
     return maxId + 1;
   };
 
-  // Generate Working Image URL
-  const generateImageUrl = (productName, category, productId) => {
-  return `https://picsum.photos/seed/toyvora-${productId}/600/600`;
-};
+  // Generate Product Related Image URL
+  const generateImageUrl = (
+    productName,
+    category,
+    productId
+  ) => {
+    if (!productName || !category) {
+      return "";
+    }
+
+    // Convert category into a useful image keyword
+    const categoryKeyword =
+      category === "Toys"
+        ? "toy"
+        : "electronics,gadget";
+
+    // Convert product name into image search keywords
+    const productKeyword = productName
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+
+    return `https://loremflickr.com/600/600/${categoryKeyword},${productKeyword}?lock=${productId}`;
+  };
 
   // Submit Product
   const handleSubmit = async (e) => {
@@ -86,7 +107,7 @@ const ProductForm = () => {
       // Generate Product ID
       const generatedId = generateProductId();
 
-      // Generate Working Image URL
+      // Generate Product Related Image
       const generatedImage = generateImageUrl(
         formData.name,
         formData.category,
@@ -96,18 +117,18 @@ const ProductForm = () => {
       const response = await createProduct({
         id: generatedId,
         image: generatedImage,
-        name: formData.name,
-        brand: formData.brand,
+        name: formData.name.trim(),
+        brand: formData.brand.trim(),
         category: formData.category,
         rating: Number(formData.rating),
         reviews: Number(formData.reviews),
         originalPrice: Number(formData.originalPrice),
         price: Number(formData.price),
         discount: Number(formData.discount),
-        offer: formData.offer,
+        offer: formData.offer.trim(),
       });
 
-      // Get newly created product
+      // Get Newly Created Product
       const newProduct = response.product;
 
       // Update Redux
@@ -186,7 +207,8 @@ const ProductForm = () => {
                     type="text"
                     className="form-control"
                     value={
-                      formData.name && formData.category
+                      formData.name &&
+                      formData.category
                         ? generateImageUrl(
                             formData.name,
                             formData.category,
