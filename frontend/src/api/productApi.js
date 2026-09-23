@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://backend-y16b.vercel.app/";
+const API_URL = "https://backend-y16b.vercel.app/products";
 
 // Get All Products
 export const getProducts = async () => {
